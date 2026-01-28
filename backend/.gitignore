@@ -78,12 +78,6 @@ instance/
 # OS
 .DS_Store
 
-# Project artifacts (FAISS / RAG outputs)
-gita_faiss_index/
-gita_rag_chunks/
-gita.index
-metadata.json
-
 # Misc
 *.egg
 *.egg-info
