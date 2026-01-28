@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  gita-gpt-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gita-gpt-frontend
+    ports:
+      - "5173:80"
+    restart: unless-stopped
